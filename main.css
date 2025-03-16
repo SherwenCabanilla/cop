@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar {
+    background-color: #0056b3;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+.logo span {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    gap: 20px; 
+}
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+.nav-links a:hover {
+    background-color: #cfcfcf;
+}
+.hero {
+    background-color: #007bff;
+    color: white;
+    padding: 100px 20px;
+    margin-top: 70px;
+}
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.hero p {
+    font-size: 1.2em;
+}
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.about, .members, .contact {
+    padding: 60px 400px;
+    margin: auto;
+    text-align: center;
+}
+.tagline {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+.about-content {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: center;
+}
+.member-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.member {
+    text-align: center;
+    width: 200px;
+}
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.member p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.member .role {
+    font-size: 0.9em;
+    color: gray;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.hero{
+    background-color: #F7F2F2;
+    color: black;
+}
+
+.navbar{
+    background-color: #ffffff;
+}
+
+.members{
+    background-color: #F7F2F2;
+}
